@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perancangan Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+        img {
+            width: 250px;
+            height: auto;
+        }
+        audio, video {
+            width: 300px;
+        }
+        .video-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            gap: 50px;
+        }
+        .video-left iframe {
+            width: 600px;
+            height: 350px;
+        }
+        .video-right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .video-right iframe {
+            width: 350px;
+            height: 200px;
+        }
+        .video-caption {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Perancangan Web</h2>
+
+    <table>
+        <tr>
+            <th>Audio</th>
+            <th>Video</th>
+            <th>Image</th>
+            <th>Keterangan</th>
+        </tr>
+        <tr>
+            <td>
+                <audio controls>
+                    <source src="assets/audio.mp3" type="audio/mpeg">
+                    Browser Anda tidak mendukung elemen audio.
+                </audio>
+            </td>
+            <td>
+                <video controls>
+                    <source src="assets/video.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung elemen video.
+                </video>
+            </td>
+            <td>
+                <img src="assets/foto.jpg" alt="Foto Christian Geovany">
+            </td>
+            <td>
+                <p><strong>Nama:</strong> Christian Geovany</p>
+                <p><strong>Umur:</strong> 18 tahun</p>
+                <p><strong>Tinggi:</strong> 165 cm (ingin 195 cm)</p>
+                <p><strong>Hobi:</strong> Coding, Elektronika</p>
+                <p><strong>Universitas:</strong> SatyaTerraBhineka</p>
+            </td>
+        </tr>
+    </table>
+
+    <div class="video-section">
+        <div class="video-left">
+            <iframe src="https://www.youtube.com/embed/36mCEZzzQ3o" frameborder="0" allowfullscreen></iframe>
+            <div class="video-caption">One Direction - One Way Or Another</div>
+        </div>
+        <div class="video-right">
+            <iframe src="https://www.youtube.com/embed/36mCEZzzQ3o" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/36mCEZzzQ3o" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
