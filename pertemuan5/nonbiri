@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Isekai Nonbiri Nouka - Anime Isekai Terbaik</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('images/header-noni.jpg') no-repeat center center/cover;
+            padding: 5rem 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            background: #2c3e50;
+            padding: 1.2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            margin: 0 0.5rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-menu a:hover {
+            background: #e74c3c;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .article-section {
+            background: white;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .character-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .character-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Isekai Nonbiri Nouka</h1>
+        <p>Isekai santai tentang kehidupan bertani di dunia fantasi</p>
+    </header>
+
+    <nav class="nav-menu">
+        <a href="index.html">Beranda</a>
+        <a href="mushoku.html">Mushoku Tensei</a>
+        <a href="zero.html">Zero no Tsukaima</a>
+        <a href="noni.html">Isekai Nonbiri Nouka</a>
+    </nav>
+
+    <div class="container">
+        <div class="article-section">
+            <h2>Sinopsis Isekai Nonbiri Nouka</h2>
+            <p>Isekai Nonbiri Nouka (Farming Life in Another World) bercerita tentang Hiraku Machio, seorang pekerja kantoran yang meninggal karena kelelahan dan bereinkarnasi di dunia fantasi dengan tubuh yang sangat kuat. Alih-alih menjadi petualang, ia memilih untuk hidup tenang sebagai petani dan membangun desa bersama berbagai ras fantasi.</p>
+            
+            <div class="character-grid">
+                <div class="character-card">
+                    <img src="images/hiraku.jpg" alt="Hiraku" class="character-img">
+                    <h3>Hiraku Machio</h3>
+                    <p>Protagonis yang bereinkarnasi sebagai petani di dunia fantasi. Memiliki tubuh yang sangat kuat berkat dewa.</p>
+                </div>
+                
+                <div class="character-card">
+                    <img src="images/ruu.jpg" alt="Ruu" class="character-img">
+                    <h3>Ruu</h3>
+                    <p>Perempuan serigala pertama yang tinggal bersama Hiraku. Menjadi asisten utama dalam pertanian.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Portal Anime Isekai</p>
+    </footer>
+</body>
+</html>
