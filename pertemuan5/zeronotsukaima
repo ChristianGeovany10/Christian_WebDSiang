@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zero no Tsukaima - Anime Isekai Terbaik</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('images/header-zero.jpg') no-repeat center center/cover;
+            padding: 5rem 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            background: #2c3e50;
+            padding: 1.2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            margin: 0 0.5rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav-menu a:hover {
+            background: #e74c3c;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .article-section {
+            background: white;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .character-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .character-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Zero no Tsukaima</h1>
+        <p>Klasik isekai yang mempopulerkan genre tsundere</p>
+    </header>
+
+    <nav class="nav-menu">
+        <a href="index.html">Beranda</a>
+        <a href="mushoku.html">Mushoku Tensei</a>
+        <a href="zero.html">Zero no Tsukaima</a>
+        <a href="noni.html">Isekai Nonbiri</a>
+    </nav>
+
+    <div class="container">
+        <div class="article-section">
+            <h2>Sinopsis Zero no Tsukaima</h2>
+            <p>Zero no Tsukaima mengisahkan tentang Saito Hiraga, seorang siswa SMA biasa yang tiba-tiba dipanggil ke dunia sihir oleh Louise, seorang penyihir muda yang dijuluki "Louise the Zero" karena kegagalannya dalam sihir. Saito menjadi familiar Louise dan terlibat dalam berbagai petualangan di akademi sihir.</p>
+            
+            <div class="character-grid">
+                <div class="character-card">
+                    <img src="images/louise.jpg" alt="Louise" class="character-img">
+                    <h3>Louise Françoise</h3>
+                    <p>Penyihir muda yang memanggil Saito sebagai familiar. Dijuluki "Zero" karena sering gagal dalam sihir.</p>
+                </div>
+                
+                <div class="character-card">
+                    <img src="images/saito.jpg" alt="Saito" class="character-img">
+                    <h3>Saito Hiraga</h3>
+                    <p>Protagonis yang dipanggil dari Jepang ke dunia sihir. Memiliki kemampuan khusus sebagai familiar Louise.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Portal Anime Isekai</p>
+    </footer>
+</body>
+</html>
