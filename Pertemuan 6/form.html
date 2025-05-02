@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Register</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #60db84, #a0efb1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background-color: #36c466;
+      padding: 30px 25px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+      width: 90%;
+      max-width: 340px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      color: white;
+      margin-bottom: 25px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      color: white;
+      font-size: 14px;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"],
+    input[type="date"] {
+      width: 100%;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      padding: 8px;
+      font-size: 14px;
+      color: white;
+      outline: none;
+    }
+
+    input::placeholder {
+      color: rgba(255,255,255,0.7);
+    }
+
+    .gender {
+      margin-top: 10px;
+      color: white;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+    }
+
+    .gender-options {
+      display: flex;
+      margin-left: 10px;
+    }
+
+    .gender label {
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+    }
+
+    .gender input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    .register-btn-container {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 20px;
+    }
+
+    .register-btn {
+      background: #36c466;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-weight: bold;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.3);
+      transition: all 0.3s ease;
+      width: auto;
+    }
+
+    .register-btn:hover {
+      background: #2e8b57;
+      box-shadow: 6px 6px 0 rgba(255, 255, 255, 0.4);
+    }
+
+    .back-link {
+      margin-top: 15px;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+    }
+
+    .back-link a {
+      color: #d0eaff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Christian Geovany</h2>
+    <form>
+      <div class="input-group">
+        <label>First name</label>
+        <input type="text" placeholder="First name" required>
+      </div>
+      <div class="input-group">
+        <label>Middle name</label>
+        <input type="text" placeholder="Middle name">
+      </div>
+      <div class="input-group">
+        <label>Last name</label>
+        <input type="text" placeholder="Last name" required>
+      </div>
+      <div class="input-group">
+        <label>Tanggal Lahir</label>
+        <input type="date" required>
+      </div>
+      <div class="gender">
+        Jenis Kelamin:
+        <div class="gender-options">
+          <label><input type="radio" name="gender" value="Pria"> Pria</label>
+          <label><input type="radio" name="gender" value="Wanita"> Wanita</label>
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Tempat Tinggal</label>
+        <input type="text" placeholder="Tempat Tinggal" required>
+      </div>
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <label>Phone</label>
+        <input type="tel" placeholder="Phone" required>
+      </div>
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" placeholder="Password" required>
+      </div>
+      <div class="register-btn-container">
+        <button type="submit" class="register-btn">REGISTER</button>
+      </div>
+      <div class="back-link">
+        Kembali <a href="#">Back</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
